@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <navbar>
+                <ul class="d-flex col-6 navBar fw-bold justify-content-between">
+                    <li><a href="">INSTITUCIONAL</a></li>
+                    <li><a href="">ACADÉMICA</a></li>
+                    <li><a href="">EXTENSIÓN</a></li>
+                    <li><a href="">INVESTIGACIÓN</a></li>
+                    <li><a href="">INTERNACIONAL</a></li>
+                </ul>
+                <form class="d-flex col-3" role="search">
+                    <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"> Buscar</button>
+                </form>
+            </navbar>
+        </div>
+    </header>
+    <section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/untref-convenio.jpg" class="d-block w-100" alt="Convenio">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/untref-encuentro.jpg" class="d-block w-100" alt="Encuentro">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/untref-estudiantes.jpg" class="d-block w-100" alt="Estudiantes">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/untref-intercambio.jpg" class="d-block w-100" alt="Intercambio">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+    <section>
+        <article>
+            <img src="images/card1-memoria.png" alt="Card 1">
+            <h3>Memoria, verdad y justicia: tres consignas que refuerzan la libertad humana</h3>
+            <p>En el marco del Día Nacional del Derecho a la Identidad, Eduardo Jozami y Victor Penchaszadeh, especialistas en derechos humanos y genética analizaron cúal es el comportamiento social en torno a este tema.</p>
+        </article>
+        <article>
+            <img src="images/card2-racismo.png" alt="Card 2">
+            <h3>La vigencia del racismo a 530 años de la colonización de América</h3>
+            <p>El investigador Daniel Mato, experto en diversidad cultural e intercultural, repasa los acontecimientos sucedidos el 12 de octubre de 1492, así como sus consecuencias sociales que llegan a nuestros días.</p>
+        </article>
+        <article>
+            <img src="images/card3-oliveros.png" alt="Card 3">
+            <h3>"De nada sirve la tecnología si ésta no tiene en cuenta la realidad social"</h3>
+            <p>El especialistaen Ingeniería en Computación Alejandro Oliveros dio cuenta de la importancia que tiene la formación de profesionales que contemplen las demandas de la comunidad y la innovación tecnológica en beneficio del ser humano.</p>
+        </article>
+    </section>
+    <section>
+        <h2>Formulario de consulta</h2>
+        <div class="mb-3">
+            <label for="entrada1" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="entrada1" placeholder="Juan Perez">
+        </div>
+        <div class="mb-3">
+            <label for="entrada2" class="form-label">Email</label>
+            <input type="email" class="form-control" id="entrada2" placeholder="juanperez@ejemplo.com">
+        </div>
+        <div class="mb-3">
+            <label for="entrada3" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="entrada3" placeholder="Teléfono de contacto">
+        </div>
+        <div class="mb-3">
+            <label for="area de texto" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="area de texto" rows="3"></textarea>
+        </div>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+</body>
+</html>
